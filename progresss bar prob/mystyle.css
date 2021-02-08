@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing:border-box; 
+}
+
+section{
+    
+    font-weight: 700;
+    font-size: x-large; 
+    background-color:#222;
+    color: blanchedalmond; 
+   
+}
+
+span{
+    font-size: 3rem;
+    color: aliceblue;
+}
+.parra h2{
+    margin: 50px ;
+    padding:  0px 150px  ;
+    text-align: center;
+    margin: 80px;
+    display: inline-block;
+}
+
+.container{
+    margin: -120px 100px 150px 150px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+.texto{
+    width: 160%;
+
+}
+.imag{
+    margin: 30px;
+}
+.imag img{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 200px;
+    height: 150px;
+}
+.deseo img{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.certi{
+    z-index: 2;
+    border: 1px solid white;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    background-color:rgba(255, 255, 255, 0.1);    
+}
+
+.certi:before{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 0px;
+    height: 30px;
+
+    animation: certi 10s infinite;
+}
+.certi p{
+    /* margin: auto; */
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+}
+
+@keyframes certi{
+    100%{
+        width: 400px;
+    }
+}
+
+/* 
+                                                        /* csss */ 
+
+.certi2{
+    border: 1px solid white;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    background-color:rgba(255, 255, 255, 0.1);    
+}
+
+.certi2:before{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 0px;
+    height: 30px;
+
+    animation: certi2 10s infinite;
+}
+.certi2 p{
+    /* margin: auto; */
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+}
+@keyframes certi2{
+    100%{
+        width: 300px;
+    }
+}
+                                                   /* java script  */
+.certi3{
+    border: 1px solid white;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    background-color:rgba(255, 255, 255, 0.1);    
+}
+
+.certi3:before{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 0px;
+    height: 30px;
+
+    animation: certi3 7s infinite;
+
+
+}
+.certi3 p{
+    /* margin: auto; */
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-50%);
+}
+@keyframes certi3{
+    100%{
+        width: 330px;
+    }
+}
+                                                         /* php  */
+.certi4{
+    border: 1px solid white;
+    margin: auto;
+    height: 30px;
+    width: 400px;
+    background-color:rgba(255, 255, 255, 0.1);    
+}
+
+.certi4:before{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 0px;
+    height: 30px;
+
+    animation: certi4 8s infinite;
+
+}
+.certi4 p{
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+}
+@keyframes certi4 {
+100%{
+    width: 290px;
+}    
+}
+
+                                                          /* sql  */
+.certi5{
+    border: 1px solid white;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    background-color:rgba(255, 255, 255, 0.1);    
+}
+
+.certi5:before{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 0px;
+    height: 30px;
+
+    animation: certi5 10s infinite;
+
+
+}
+.certi5 p{
+    /* margin: auto; */
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+}
+@keyframes certi5{
+    100%{
+        width: 130px;
+    }
+}
+                                                      /* larabel  */
+.certi6{
+    border: 1px solid white;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    background-color:rgba(255, 255, 255, 0.1);    
+}
+
+.certi6:before{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 0px;
+    height: 30px;
+
+    animation: certi6 10s infinite;
+
+
+}
+.certi6 p{
+    /* margin: auto; */
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+}
+@keyframes certi6{
+    100%{
+        width: 80px;
+    }
+}
+                                                        /* ingles  */
+.certi7{
+    border: 1px solid white;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    background-color:rgba(255, 255, 255, 0.1);    
+}
+
+.certi7:before{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 0px;
+    height: 30px;
+
+    animation: certi7 5s infinite;
+
+}
+.certi7 p{
+    /* margin: auto; */
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-50%);
+}
+@keyframes certi7{
+    100%{
+        width: 250px;
+    }
+}
+
+
+@media (max-width:1100px){
+   .container{
+
+       display:block;
+       margin: 0 7%;
+
+   }
+   .certi, .certi2, .certi3, .certi4, .certi5, .certi6, .certi7 p{
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    left:  30%;
+    transform: translateX(10%);
+}
+.certi, .certi2, .certi3, .certi4, .certi5, .certi6, .certi7{
+    width: 200px;
+}
+.parra p {
+    width: 100%;
+    height: auto;
+    padding: 0px 25px;
+}
+@keyframes certi7{
+     100%{
+        width: 200px;
+    }
+}
+@keyframes certi{
+    100%{
+        width: 200px;
+    }
+}
+@keyframes certi2{
+    100%{
+        width: 180px;
+    }
+}
+@keyframes certi3{
+    100%{
+        width: 180px;
+    }
+}
+@keyframes certi4{
+    100%{
+        width: 130px;
+    }
+}
+
+
+
+
+    
+}
+
+.deseo{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: nowrap;
+}
+
+.card{
+    
+    border-radius: 2%;
+    border-color: black;
+    box-shadow: black;
+}
