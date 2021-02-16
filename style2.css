@@ -195,6 +195,18 @@ ul, li, a{
     top: 45%;
     text-align: center;
 }
+.imagenes h3 img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+  
+    
+}
+.bram{
+    background-color: #0d17207a;
+}
+
 .encima div{
     z-index: 4;
     position: relative;
