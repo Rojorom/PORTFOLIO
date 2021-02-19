@@ -20,7 +20,7 @@ function writing(str){
    }
   },100);
  };
- writing('los Programadores estan construyendo el mundo en la sombra, son artistas que nadie Idolatra, nadie quiere ser como ellos . pero aun asi son los protagonistas que todos ignoran ');
+ writing('mira a tu alrededor  aprecia los avances eso solo fue posible Gracias a los Desarrolladores (Los Heroes Olvidados que nadie admira y mucho menos quieren ser como Ellos)');
 
 
 
