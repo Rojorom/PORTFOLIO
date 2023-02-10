@@ -378,6 +378,16 @@ strong {
   text-align: center;
 }
 
+.dropdown-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dropdown-item {
+  margin-right: 10px;
+}
+
 /*---------------------------------------
   ABOUT & TEAM MEMBERS               
 -----------------------------------------*/
