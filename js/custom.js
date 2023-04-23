@@ -11,7 +11,7 @@ function downloadpdf(){
 }
 
 
-function translate(){
+(function translate(){
   // Creación de una nueva instancia de URLSearchParams para codificar los parámetros a enviar
 const encodedParams = new URLSearchParams();
 // Agregar el parámetro "text" con el texto a traducir
@@ -44,14 +44,29 @@ const LinkApi = "https://fast-deepl-translator.p.rapidapi.com/api/translate"
 } */
 
 // Realización de la petición fetch a la API de traducción
-fetch(LinkApi, options)
-
+    fetch(LinkApi, options)
 	.then(response => response.json())
 	.then(response => console.log(response))
-	.catch(err => console.error(err));
+	.catch(err => console.error(err)); 
+ 
+
+/* 
+  async function fetchData(LinkApi){
+    const response = await fetch(LinkApi, options)
+    const data = response.json()
+    return data;
+  }(async ()=>{
+    try{
+      const recibo = fetchData(LinkApi);
+      console.log(recibo);
+    }catch(error){
+      console.log(error);
+    }
+
+  })() */
  
  
-}
+})();
  
  (function ($) {
   
